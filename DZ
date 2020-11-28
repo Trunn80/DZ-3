@@ -35,6 +35,11 @@ else:                                                                           
     
 Четвёртое задание:
 
-start_date = 1900
-end_date = 2020
+from datetime import datetime
+
+year1 = 2020
+year2 = 1900
+rad = year1 - year2
+for i in range(rad+1):
+    print(year2 + i)
     
